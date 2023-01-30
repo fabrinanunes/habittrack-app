@@ -1,0 +1,84 @@
+.h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #3f414e;
+  justify-content: center;
+  text-align: center;
+  margin-top: 24px;
+}
+
+.login {
+  paddin: 16px;
+  border-radius: 38px;
+  border: 1px solid #ebeaec;
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+
+.divButton {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  height: 50px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #7583ca;
+  border: 1px solid transparent;
+  border-radius: 38px;
+  color: #f6f1fb;
+}
+
+.googleButton {
+  height: 50px;
+  width: 400px;
+  border-radius: 38px;
+  border: 1px solid #ebeaec;
+  color: #3f414e;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginEmailText {
+  color: #a1a4b2;
+  font-weight: bold;
+  text-align: center;
+  margin: 36px 0;
+}
+
+.input {
+  width: 400px;
+  height: 50px;
+  background: #f2f3f7;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  margin-bottom: 20px;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.checkbox{
+  margin: 0 8px 0 50px;
+}
+
+.span {
+  font-size: 14px;
+  color: #a1a4b2;
+  text-align: center;
+  margin: 8px 0 16px 0;
+}
+
+.focus {
+  color: #7483ca;
+  font-weight: bold;
+}
