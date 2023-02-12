@@ -1,10 +1,7 @@
-.h1 {
-  font-size: 28px;
-  font-weight: bold;
-  color: #3f414e;
-  justify-content: center;
-  text-align: center;
-  margin-top: 24px;
+.background{
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../public/login-bg.svg")
 }
 
 .login {
@@ -13,6 +10,16 @@
   border: 1px solid #ebeaec;
   width: 500px;
   margin: 0 auto;
+  margin-top: 24px;
+  background: #ffffff80;
+}
+
+.h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #3f414e;
+  justify-content: center;
+  text-align: center;
   margin-top: 24px;
 }
 
@@ -34,25 +41,32 @@
   border: 1px solid transparent;
   border-radius: 38px;
   color: #f6f1fb;
+  transition: 0.5s ease;
 }
 
 .googleButton {
   height: 50px;
   width: 400px;
-  border-radius: 38px;
-  border: 1px solid #ebeaec;
-  color: #3f414e;
-  margin-top: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid #ebeaec;
+  border-radius: 38px;
+  color: #3f414e;
+  margin-top: 20px;
+  transition: 0.5s ease;
+}
+
+.button:hover,
+.googleButton:hover {
+  filter: brightness(0.90);
 }
 
 .loginEmailText {
   color: #a1a4b2;
   font-weight: bold;
   text-align: center;
-  margin: 36px 0;
+  margin: 24px 0 36px 0;
 }
 
 .input {
